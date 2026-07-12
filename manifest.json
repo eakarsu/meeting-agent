@@ -1,0 +1,29 @@
+{
+  "id": "meeting-agent",
+  "title": "Meeting Agent App",
+  "industry": "AI/ML Platforms & Dev Tools",
+  "industryId": "ai-ml-platforms-dev-tools",
+  "specialization": "Meeting Agent",
+  "sourcePlatformGroup": "developer-productivity-platform",
+  "sources": [
+    "AIAutonomousWebScrapingAgent",
+    "AIEmailTriageResponseAgent",
+    "AiMeetingAgent"
+  ],
+  "featureCount": 234,
+  "candidateFeatureCount": 330,
+  "eliminatedSimilarFeatures": 96,
+  "evidenceCount": 406,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 2,
+    "seededTables": 7,
+    "seededRows": 113
+  },
+  "visibleFeatureCount": 10,
+  "featureVisibilityMode": "seeded-or-ai"
+}
