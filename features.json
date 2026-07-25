@@ -3713,9 +3713,11 @@
     "canonicalKey": "digest inbox",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=inbox-digest",
       "/inbox-digest"
     ],
     "sourceProjects": [
@@ -3725,6 +3727,13 @@
       "ai-ml-platforms-dev-tools/meeting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/pages/AIAdvanced.jsx:1",
+        "route": "/ai-advanced?tool=inbox-digest",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIEmailTriageResponseAgent",
@@ -5482,9 +5491,11 @@
     "canonicalKey": "sale sequence",
     "aliases": [],
     "kinds": [
+      "ai-page",
       "api"
     ],
     "routes": [
+      "/ai-advanced?tool=sales-sequence",
       "/sales-sequence"
     ],
     "sourceProjects": [
@@ -5494,6 +5505,13 @@
       "ai-ml-platforms-dev-tools/meeting-agent"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "frontend/src/pages/AIAdvanced.jsx:1",
+        "route": "/ai-advanced?tool=sales-sequence",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
       {
         "kind": "api",
         "sourceProject": "AIEmailTriageResponseAgent",
@@ -7211,22 +7229,17 @@
   {
     "name": "Use",
     "canonicalKey": "use",
-    "aliases": [
-      "Tool Use"
-    ],
+    "aliases": [],
     "kinds": [
       "api"
     ],
     "routes": [
-      "/:id/use",
-      "/tool-use"
+      "/:id/use"
     ],
     "sourceProjects": [
-      "AIEmailTriageResponseAgent",
-      "mcpServer"
+      "AIEmailTriageResponseAgent"
     ],
     "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/mcp-server",
       "ai-ml-platforms-dev-tools/meeting-agent"
     ],
     "evidence": [
@@ -7243,13 +7256,6 @@
         "path": "backend/src/routes/templates.js:203",
         "route": "/:id/use",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "mcpServer",
-        "path": "backend/routes/ai.js:114",
-        "route": "/tool-use",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },

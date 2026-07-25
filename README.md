@@ -3,7 +3,7 @@
 Industry: **AI/ML Platforms & Dev Tools**  
 Specialization: **Meeting Agent**
 
-This standalone application consolidates source-backed capabilities into 238 optimized features, including 10 visible data-backed or AI-enabled views. Its public demo SQLite database contains 113 sanitized source rows across 7 imported tables and 120 operational workflow records.
+This standalone application consolidates source-backed capabilities into 238 optimized features, including 12 visible data-backed or AI-enabled views. Its public demo SQLite database contains 113 sanitized source rows across 7 imported tables and 120 operational workflow records.
 
 ## Run locally
 
