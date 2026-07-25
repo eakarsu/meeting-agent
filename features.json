@@ -1,5 +1,29 @@
 [
   {
+    "name": "Agent Logs",
+    "canonicalKey": "agent logs",
+    "aliases": [],
+    "kinds": [
+      "navigation"
+    ],
+    "routes": [],
+    "sourceProjects": [
+      "AIAutonomousWebScrapingAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIAutonomousWebScrapingAgent",
+        "path": "frontend/src/components/Sidebar.js:16",
+        "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
     "name": "AI Advanced",
     "canonicalKey": "advanced ai",
     "aliases": [
@@ -71,27 +95,6 @@
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
       },
       {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/App.jsx:64",
-        "route": "/ai-advanced",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/components/Layout.jsx:20",
-        "route": "/ai-advanced",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIMergededuplicate",
-        "path": "frontend/src/pages/AiAdvancedTools.jsx",
-        "route": "/AiAdvancedTools",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
         "kind": "navigation",
         "sourceProject": "AIHardwareIoT",
         "path": "frontend/src/components/Sidebar.jsx:13",
@@ -111,6 +114,27 @@
         "path": "frontend/src/pages/AdvancedAITools.jsx",
         "route": "/AdvancedAITools",
         "originApp": "ai-ml-platforms-dev-tools/dynamiclocationaware"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMergededuplicate",
+        "path": "frontend/src/App.jsx:64",
+        "route": "/ai-advanced",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMergededuplicate",
+        "path": "frontend/src/components/Layout.jsx:20",
+        "route": "/ai-advanced",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIMergededuplicate",
+        "path": "frontend/src/pages/AiAdvancedTools.jsx",
+        "route": "/AiAdvancedTools",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
       },
       {
         "kind": "page",
@@ -149,75 +173,6 @@
         "path": "frontend/src/components/Sidebar.js:22",
         "route": "",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      }
-    ]
-  },
-  {
-    "name": "Agent Logs",
-    "canonicalKey": "agent logs",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "AIAutonomousWebScrapingAgent"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/meeting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAutonomousWebScrapingAgent",
-        "path": "frontend/src/components/Sidebar.js:16",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      }
-    ]
-  },
-  {
-    "name": "Agents Manager",
-    "canonicalKey": "agents",
-    "aliases": [
-      "Agents Page"
-    ],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AgentsPage"
-    ],
-    "sourceProjects": [
-      "AIAutonomousWebScrapingAgent",
-      "mcpServer"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/mcp-server",
-      "ai-ml-platforms-dev-tools/meeting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIAutonomousWebScrapingAgent",
-        "path": "frontend/src/components/Sidebar.js:35",
-        "route": "",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIAutonomousWebScrapingAgent",
-        "path": "frontend/src/pages/AgentsPage.js",
-        "route": "/AgentsPage",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "mcpServer",
-        "path": "frontend/src/pages/AgentsPage.js",
-        "route": "/AgentsPage",
-        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
       }
     ]
   },
@@ -538,32 +493,6 @@
         "path": "frontend/src/App.js:468",
         "route": "/backlog-tools",
         "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      }
-    ]
-  },
-  {
-    "name": "CRM Sync",
-    "canonicalKey": "crm sync",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/crm-sync"
-    ],
-    "sourceProjects": [
-      "AIEmailTriageResponseAgent"
-    ],
-    "consolidatedFromApps": [
-      "ai-ml-platforms-dev-tools/meeting-agent"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIEmailTriageResponseAgent",
-        "path": "backend/src/routes/aiNew.js:614",
-        "route": "/crm-sync",
-        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
       }
     ]
   },
@@ -1212,6 +1141,58 @@
         "sourceProject": "AIAutonomousWebScrapingAgent",
         "path": "frontend/src/components/Sidebar.js:46",
         "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Crawl Readiness",
+    "canonicalKey": "crawl readiness",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/crawl-readiness"
+    ],
+    "sourceProjects": [
+      "AIAutonomousWebScrapingAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousWebScrapingAgent",
+        "path": "backend/routes/runtimeAi.js:9",
+        "route": "/crawl-readiness",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
+    "name": "CRM Sync",
+    "canonicalKey": "crm sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/crm-sync"
+    ],
+    "sourceProjects": [
+      "AIEmailTriageResponseAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/src/routes/aiNew.js:614",
+        "route": "/crm-sync",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
       }
     ]
@@ -2194,10 +2175,63 @@
     ]
   },
   {
+    "name": "Dispositions",
+    "canonicalKey": "disposition",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/messages/:id/dispositions"
+    ],
+    "sourceProjects": [
+      "AIEmailTriageResponseAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/src/routes/governedTriage.js:8",
+        "route": "/messages/:id/dispositions",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Dns Check",
+    "canonicalKey": "check dns",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/jobs/:id/dns-check"
+    ],
+    "sourceProjects": [
+      "AIAutonomousWebScrapingAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousWebScrapingAgent",
+        "path": "backend/routes/governedCrawls.js:3",
+        "route": "/jobs/:id/dns-check",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
     "name": "Drafts",
     "canonicalKey": "draft",
     "aliases": [],
     "kinds": [
+      "api",
       "page"
     ],
     "routes": [
@@ -2211,6 +2245,13 @@
       "ai-ml-platforms-dev-tools/meeting-agent"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIEmailTriageResponseAgent",
+        "path": "backend/src/routes/governedTriage.js:6",
+        "route": "/drafts",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
       {
         "kind": "page",
         "sourceProject": "AIEmailTriageResponseAgent",
@@ -2493,6 +2534,32 @@
         "sourceProject": "AIEmailTriageResponseAgent",
         "path": "backend/src/routes/aiNew.js:437",
         "route": "/executive-daily-summary",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      }
+    ]
+  },
+  {
+    "name": "Failures",
+    "canonicalKey": "failure",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/jobs/:id/failures"
+    ],
+    "sourceProjects": [
+      "AIAutonomousWebScrapingAgent"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/meeting-agent"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousWebScrapingAgent",
+        "path": "backend/routes/governedCrawls.js:5",
+        "route": "/jobs/:id/failures",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
       }
     ]
@@ -3030,7 +3097,7 @@
   },
   {
     "name": "Gap No Webhooks No Provider Push",
-    "canonicalKey": "gap no provider push webhooks",
+    "canonicalKey": "gap no provider push webhook",
     "aliases": [],
     "kinds": [
       "api"
@@ -3056,7 +3123,7 @@
   },
   {
     "name": "Gap Notifications Subsystem",
-    "canonicalKey": "gap notifications subsystem",
+    "canonicalKey": "gap notification subsystem",
     "aliases": [],
     "kinds": [
       "page"
@@ -3134,7 +3201,7 @@
   },
   {
     "name": "Gap Robots Txt Aware Rate Limiting",
-    "canonicalKey": "aware gap limiting rate robots txt",
+    "canonicalKey": "aware gap limiting rate robot txt",
     "aliases": [],
     "kinds": [
       "page"
@@ -3753,14 +3820,16 @@
   {
     "name": "Labels",
     "canonicalKey": "label",
-    "aliases": [],
+    "aliases": [
+      "Labels Page"
+    ],
     "kinds": [
       "page"
     ],
     "routes": [
       "/Labels",
-      "/labels",
-      "labels"
+      "/LabelsPage",
+      "/labels"
     ],
     "sourceProjects": [
       "AIEmailTriageResponseAgent",
@@ -3774,8 +3843,8 @@
       {
         "kind": "page",
         "sourceProject": "saas-challengers",
-        "path": "frontend/src/App.tsx:66",
-        "route": "labels",
+        "path": "frontend/src/pages/LabelsPage.tsx",
+        "route": "/LabelsPage",
         "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
@@ -3852,13 +3921,6 @@
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
-        "kind": "api",
-        "sourceProject": "AIAppointmentSchedulerwithNLP",
-        "path": "backend/src/routes/nlp.js:29",
-        "route": "/logs",
-        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
-      },
-      {
         "kind": "page",
         "sourceProject": "AIAutonomousWebScrapingAgent",
         "path": "frontend/src/App.js:53",
@@ -3885,6 +3947,13 @@
         "path": "frontend/src/pages/LogsPage.js",
         "route": "/LogsPage",
         "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAppointmentSchedulerwithNLP",
+        "path": "backend/src/routes/nlp.js:29",
+        "route": "/logs",
+        "originApp": "ai-ml-platforms-dev-tools/pdfgenius-merged"
       },
       {
         "kind": "api",
@@ -5007,6 +5076,63 @@
     ]
   },
   {
+    "name": "Records",
+    "canonicalKey": "record",
+    "aliases": [
+      "Record"
+    ],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/record",
+      "/jobs/:id/records",
+      "/record"
+    ],
+    "sourceProjects": [
+      "AIAutonomousWebScrapingAgent",
+      "AIChatbotBuilder",
+      "multi_agents",
+      "software-for-agents"
+    ],
+    "consolidatedFromApps": [
+      "ai-ml-platforms-dev-tools/code-interpreter",
+      "ai-ml-platforms-dev-tools/mcp-server",
+      "ai-ml-platforms-dev-tools/meeting-agent",
+      "ai-ml-platforms-dev-tools/software-for-agents-merged"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIChatbotBuilder",
+        "path": "backend/routes/abTests.js:176",
+        "route": "/:id/record",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIAutonomousWebScrapingAgent",
+        "path": "backend/routes/governedCrawls.js:4",
+        "route": "/jobs/:id/records",
+        "originApp": "ai-ml-platforms-dev-tools/meeting-agent"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "software-for-agents",
+        "path": "backend/routes/quota-metering.js:126",
+        "route": "/record",
+        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "multi_agents",
+        "path": "backend/src/routes/traces.js:11",
+        "route": "/record",
+        "originApp": "ai-ml-platforms-dev-tools/mcp-server"
+      }
+    ]
+  },
+  {
     "name": "Redact Action Payload",
     "canonicalKey": "action payload redact",
     "aliases": [],
@@ -5060,7 +5186,7 @@
   },
   {
     "name": "Robots Check",
-    "canonicalKey": "check robots",
+    "canonicalKey": "check robot",
     "aliases": [],
     "kinds": [
       "api"
@@ -5112,9 +5238,7 @@
       "ai-operating-system-for-companies",
       "company-brain",
       "document_management",
-      "dynamic-software-interfaces",
-      "mcpServer",
-      "merged2"
+      "mcpServer"
     ],
     "consolidatedFromApps": [
       "ai-ml-platforms-dev-tools/agent-observability-plus",
@@ -5126,52 +5250,9 @@
       "ai-ml-platforms-dev-tools/mcp-server",
       "ai-ml-platforms-dev-tools/meeting-agent",
       "ai-ml-platforms-dev-tools/product-management-copilot",
-      "ai-ml-platforms-dev-tools/software-for-agents-merged",
       "ai-ml-platforms-dev-tools/synthetic-data-generator"
     ],
     "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "ai-operating-system-for-companies",
-        "path": "backend/routes/gap-nonai-alerting.js:42",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "ai-operating-system-for-companies",
-        "path": "backend/routes/gap-nonai-alerting.js:50",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/customViews.js:138",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "dynamic-software-interfaces",
-        "path": "backend/routes/customViews.js:146",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/software-for-agents-merged"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "company-brain",
-        "path": "backend/routes/tenants-acl.js:104",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "company-brain",
-        "path": "backend/routes/tenants-acl.js:82",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
-      },
       {
         "kind": "api",
         "sourceProject": "AIProjectManager",
@@ -5188,17 +5269,31 @@
       },
       {
         "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/compliance.ts:77",
+        "sourceProject": "ai-operating-system-for-companies",
+        "path": "backend/routes/gap-nonai-alerting.js:42",
         "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
         "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/compliance.ts:89",
+        "sourceProject": "ai-operating-system-for-companies",
+        "path": "backend/routes/gap-nonai-alerting.js:50",
         "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "company-brain",
+        "path": "backend/routes/tenants-acl.js:104",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "company-brain",
+        "path": "backend/routes/tenants-acl.js:82",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/luran-ai"
       },
       {
         "kind": "api",
@@ -5258,6 +5353,20 @@
       },
       {
         "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/compliance.ts:78",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/compliance.ts:90",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AILocalFirstAgent",
         "path": "backend/routes/customViews.js:247",
         "route": "/rules",
@@ -5269,20 +5378,6 @@
         "path": "backend/routes/customViews.js:254",
         "route": "/rules",
         "originApp": "ai-ml-platforms-dev-tools/agent-observability-plus"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISyntheticDataGenerator",
-        "path": "backend/routes/customViews.js:91",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AISyntheticDataGenerator",
-        "path": "backend/routes/customViews.js:95",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
       },
       {
         "kind": "api",
@@ -5314,6 +5409,20 @@
       },
       {
         "kind": "api",
+        "sourceProject": "AISyntheticDataGenerator",
+        "path": "backend/routes/customViews.js:91",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AISyntheticDataGenerator",
+        "path": "backend/routes/customViews.js:95",
+        "route": "/rules",
+        "originApp": "ai-ml-platforms-dev-tools/synthetic-data-generator"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIIdentifymonetizeunderutilized",
         "path": "backend/routes/customViews.js:193",
         "route": "/rules",
@@ -5337,13 +5446,6 @@
         "kind": "api",
         "sourceProject": "AiBusinessAutomation",
         "path": "backend/src/routes/customViews.js:289",
-        "route": "/rules",
-        "originApp": "ai-ml-platforms-dev-tools/automateinternational"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "merged2",
-        "path": "energy-environment-agriculture/unified/original-source/ai-low-pesticide-agriculture/backend/routes/gap-ai-crop-rotation-planner.js:166",
         "route": "/rules",
         "originApp": "ai-ml-platforms-dev-tools/automateinternational"
       }
@@ -5377,7 +5479,7 @@
   },
   {
     "name": "Sales Sequence",
-    "canonicalKey": "sales sequence",
+    "canonicalKey": "sale sequence",
     "aliases": [],
     "kinds": [
       "api"
@@ -6010,20 +6112,6 @@
     "evidence": [
       {
         "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/aiWorkflow.ts:364",
-        "route": "/collaborative/analyze/:sessionId",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "document_management",
-        "path": "backend/src/routes/publishing.ts:327",
-        "route": "/collaborative/lock/:sessionId",
-        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
-      },
-      {
-        "kind": "api",
         "sourceProject": "AIAutonomousWebScrapingAgent",
         "path": "backend/routes/cuaFeat_clickPlanner.js:109",
         "route": "/by-session/:sessionId",
@@ -6080,6 +6168,20 @@
       },
       {
         "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/aiWorkflow.ts:364",
+        "route": "/collaborative/analyze/:sessionId",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "document_management",
+        "path": "backend/src/routes/publishing.ts:327",
+        "route": "/collaborative/lock/:sessionId",
+        "originApp": "ai-ml-platforms-dev-tools/product-management-copilot"
+      },
+      {
+        "kind": "api",
         "sourceProject": "AIDigitalTwinPlatform",
         "path": "server/routes/aiNew.js:472",
         "route": "/twins/group-session/:sessionId",
@@ -6112,13 +6214,15 @@
     "name": "Session Recording",
     "canonicalKey": "recording session",
     "aliases": [
-      "Recording Sessions"
+      "Recording Sessions",
+      "Recording Sessions Page"
     ],
     "kinds": [
       "navigation",
       "page"
     ],
     "routes": [
+      "/RecordingSessionsPage",
       "/cua/session-recording"
     ],
     "sourceProjects": [
@@ -6135,6 +6239,13 @@
         "sourceProject": "AIWorkflowCapture",
         "path": "frontend/src/components/Sidebar.js:35",
         "route": "",
+        "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWorkflowCapture",
+        "path": "frontend/src/pages/RecordingSessionsPage.js",
+        "route": "/RecordingSessionsPage",
         "originApp": "ai-ml-platforms-dev-tools/code-interpreter"
       },
       {
